@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maria</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <body>
+      <h1>¡Bienvenido a Cafetería Maria!</h1>
+
+      <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" required />
+
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" required />
+
+        <label for="producto">Producto:</label>
+        <input type="text" id="producto" required />
+
+        <a
+          href="mailto:correo@ejemplo.com?subject=Compra de Producto&body=Hola,%0D%0A%0D%0AQuiero comprar el siguiente producto:%0D%0AProducto: [Producto]%0D%0ANombre: [Nombre]%0D%0ACorreo: [Correo]"
+          class="comprar-button"
+          >Comprar</a
+        >
+      </form>
+    </body>
+  </head>
+</html>
